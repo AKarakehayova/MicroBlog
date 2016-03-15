@@ -1,0 +1,8 @@
+<p>
+  <strong> Tag:</strong>
+  <%= tag.content %>
+</p>
+
+<p>
+  <%= link_to 'Delete Tag', [tag.post, tag], method: :delete, data: {confirm: 'Are you sure?'} %>
+</p>
